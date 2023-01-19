@@ -10,7 +10,7 @@ void Push(int x)
         printf("Error: stack overflow\n");
         return ;    
     }
-    A[top++] = x;
+    A[++top] = x;
 }
 
 void Pop()
@@ -30,7 +30,6 @@ int Top()
 
 void Print()
 {
-    int i;
     printf("Stack: ");
     for (int i = 0; i <= top; i++)
         printf("%d ", A[i]);
@@ -39,8 +38,13 @@ void Print()
 int main(void)
 {
     Push(2);
+    Print();
     Push(5);
+    Print();
     Push(10);
+    Print();
     Pop();
+    Print();
     Push(12);
+    Print();
 }
