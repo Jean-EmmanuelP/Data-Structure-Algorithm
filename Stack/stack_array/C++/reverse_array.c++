@@ -16,7 +16,7 @@ class Stack
 
 void Reverse(char C[], int n)
 {
-    stack<>
+    stack<char> S;
 }
 
 int main()
