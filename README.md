@@ -1,2 +1,2 @@
 # Data-Structure-Algorithm
-Starting to learn concepts !
+Starting to learn concepts !s
